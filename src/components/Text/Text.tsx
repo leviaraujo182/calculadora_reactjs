@@ -2,7 +2,7 @@ import React from 'react'
 import './Text.css'
 
 interface AppProps {
-    text: string;
+    text?: string;
     id?: string
 }
 

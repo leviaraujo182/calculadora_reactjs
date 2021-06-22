@@ -5,7 +5,7 @@ import Input from './components/Input'
 import Button from './components/Button'
 
 function App() {
-  
+
   function alerta_teste(){
     var number1 = document.getElementById("input1") as HTMLInputElement
     var number2 = document.getElementById("input2") as HTMLInputElement
@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Text text="Titulo" />
+        <Text text={process.env.REACT_APP_TITLE_DOTENV} />
         <div className="input" >
           <Input id="input1"/>
           <Input id="input2"/>
