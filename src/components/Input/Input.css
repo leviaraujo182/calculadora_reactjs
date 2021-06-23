@@ -2,11 +2,15 @@ input {
     background-color: #B2BDFB;
     color: #FFF;
     text-align: center;
-    height: 5vh;
-    width: 15vh;
+    height: 2.600rem;
+    width: 7.5rem;
     margin-right: 0.5rem;
     margin-left: 0.5rem;
     border-radius: 5px;
-    margin-top: 10px;
-    font-size: 20px;
+    font-size: 25px;
+    border: none;
+}
+
+input:focus{
+    outline:1px solid #4E9EB2;
 }
