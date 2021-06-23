@@ -17,3 +17,7 @@ git clone https://github.com/leviaraujo182/calculadora_ts.git
 ```
 npm install
 ```
+- Executar o projeto
+```
+npm start
+```
